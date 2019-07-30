@@ -16,6 +16,8 @@
 		F245AAB722EFF33C005C9E25 /* SwiftyAlgorithmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245AAB622EFF33C005C9E25 /* SwiftyAlgorithmUITests.swift */; };
 		F245AAC622EFF432005C9E25 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245AAC522EFF432005C9E25 /* PalindromeNumber.swift */; };
 		F245AAC822F0289B005C9E25 /* PrimePalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245AAC722F0289B005C9E25 /* PrimePalindrome.swift */; };
+		F245AACA22F04507005C9E25 /* HammingWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245AAC922F04507005C9E25 /* HammingWeight.swift */; };
+		F245AACC22F048BA005C9E25 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245AACB22F048BA005C9E25 /* ReverseString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F245AAB822EFF33C005C9E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F245AAC522EFF432005C9E25 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		F245AAC722F0289B005C9E25 /* PrimePalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimePalindrome.swift; sourceTree = "<group>"; };
+		F245AAC922F04507005C9E25 /* HammingWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingWeight.swift; sourceTree = "<group>"; };
+		F245AACB22F048BA005C9E25 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 			children = (
 				F245AAC522EFF432005C9E25 /* PalindromeNumber.swift */,
 				F245AAC722F0289B005C9E25 /* PrimePalindrome.swift */,
+				F245AAC922F04507005C9E25 /* HammingWeight.swift */,
+				F245AACB22F048BA005C9E25 /* ReverseString.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -270,10 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F245AACA22F04507005C9E25 /* HammingWeight.swift in Sources */,
 				F245AAC822F0289B005C9E25 /* PrimePalindrome.swift in Sources */,
 				F245AAC622EFF432005C9E25 /* PalindromeNumber.swift in Sources */,
 				F245AA9922EFF33B005C9E25 /* ViewController.swift in Sources */,
 				F245AA9722EFF33B005C9E25 /* AppDelegate.swift in Sources */,
+				F245AACC22F048BA005C9E25 /* ReverseString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
