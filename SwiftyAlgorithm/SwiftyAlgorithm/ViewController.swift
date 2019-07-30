@@ -13,9 +13,7 @@ class ViewController: UIViewController {
       override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
-            let isPalindrome = 12421.isPalindrome
+            let isPalindrome = 9989900.nextPrimePalindrome
       }
-
-
 }
 
